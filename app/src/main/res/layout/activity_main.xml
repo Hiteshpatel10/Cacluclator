@@ -12,14 +12,17 @@
         android:id="@+id/display1"
         style="@style/Display"
         android:gravity="end"
-        android:maxLines="1"
-        android:text="hifjkffffffffffffasaaaa" />
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:text="" />
 
     <TextView
         android:id="@+id/display2"
         style="@style/Display"
         android:gravity="end"
-        android:text="dhgkajhv" />
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -139,7 +142,7 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/backSpace"
+                android:id="@+id/dot"
                 style="@style/ButtonNumberStyle"
                 android:text="." />
 
